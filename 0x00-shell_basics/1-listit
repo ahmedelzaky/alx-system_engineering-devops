@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "0-current_working_directory\n1-listit\n2-bring_me_home\nREADME.md"
+echo "README.md"
