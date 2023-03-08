@@ -1,2 +1,2 @@
 #!/bin/bash
-src_dir=$(pwd) dest_dir=$(dirname $src_dir) find $src_dir -name "*.html" -type f -newer $dest_dir -exec sh -c 'for html_file do dest_file="$1/${html_file##*/}"; if [[ ! -e "$dest_file" || "$html_file" -nt "$dest_file" ]]; then cp -n "$html_file" "$dest_file"; fi; done' sh "$dest_dir" {} +
+cp -n *.html ..
