@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "README.md"
+printf "1-listit\nREADME.md"
